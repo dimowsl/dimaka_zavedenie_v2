@@ -29,6 +29,14 @@ namespace zavedenie_dimaka
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Zavedenie zavedenie = new Zavedenie();
+            cenorazpis ceni =  new cenorazpis();
+            ceni.Show();
+            ceni.BringToFront();
+        }
+
+        private void Zavedenie_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -17,7 +17,7 @@ namespace forma_zavedenie_dimaka_sashko
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           Application.Run(new Cenorazpis());
+            Application.Run(new Zavedenie());
         }
     }
 }
